@@ -1,22 +1,68 @@
 aid: sirum
 name: Sirum
-description: Sirum is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  SIRUM (Supporting Initiatives to Redistribute Unused Medicine) is a nonprofit
+  and the country's largest redistributor of surplus prescription medication. It
+  connects unused, in-date medicine from manufacturers, wholesalers, pharmacies,
+  and nursing homes with patients who cannot afford their prescriptions,
+  operating under drug-donation laws across the United States. SIRUM runs a
+  logistics and matching platform that routes donated medication to community
+  partners and individuals in need, aiming to close the gap for the tens of
+  millions of Americans who skip prescribed medication because of cost. Surfaced
+  as a Y Combinator portfolio company and profiled in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/sirum/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://sirum.org/wp-content/uploads/2022/07/homepage-tiny-impact-1.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-has-api-surface: false
+x-api-surface-note: >-
+  Probed 2026-07-21. sirum.org is a WordPress marketing site; the donor portal at
+  donor.sirum.org is a login-gated Vue SPA whose routes all return the app
+  index.html (no real OpenAPI, /.well-known, or llms.txt). No public developer
+  program, API reference, or specification found.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Medication
+- Prescription Access
+- Nonprofit
+- Pharmacy
+- Social Impact
 apis: []
+common:
+- type: Website
+  url: https://sirum.org
+- type: Login
+  url: https://donor.sirum.org
+- type: PrivacyPolicy
+  url: https://sirum.org/privacy-policy/
+- type: TermsOfService
+  url: https://sirum.org/terms/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
