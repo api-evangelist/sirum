@@ -35,7 +35,7 @@ x-api-surface-note: >-
   donor.sirum.org is a login-gated Vue SPA whose routes all return the app
   index.html (no real OpenAPI, /.well-known, or llms.txt). No public developer
   program, API reference, or specification found.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
